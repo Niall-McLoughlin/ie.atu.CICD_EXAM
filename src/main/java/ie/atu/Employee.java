@@ -12,6 +12,12 @@ public class Employee {
     public String PPS;
     public String userPPS;
 
+    public String getName() {
+        return name;
+    }
+    public String getPPS() {
+        return PPS;
+    }
     public static void main(String[] args) {
 
         // creates an object of Scanner

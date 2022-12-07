@@ -26,18 +26,21 @@ class EmployeeTest {
     @Test
     void testNameConstructor() {
         if ((myEmp.name.length() > 5) && (myEmp.name.length() < 22)) {
+
         }
         else {
             throw new IllegalArgumentException("Name length is invalid");
         }
 
+
     }
     @Test
     void testPPsConstructor() {
         if (myEmp.PPS.length() ==6 ) {
+
         }
         else {
-            throw new IllegalArgumentException("Name length is invalid");
+            throw new IllegalArgumentException("PPS is invalid");
         }
 
     }
